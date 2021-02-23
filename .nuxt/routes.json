@@ -1,0 +1,55 @@
+[
+  {
+    "name": "editor",
+    "path": "/editor",
+    "component": "/Users/chenyingjian/Desktop/学习文件/realworld/pages/editor/index.vue",
+    "chunkName": "pages/editor/index"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/Users/chenyingjian/Desktop/学习文件/realworld/pages/login/index.vue",
+    "chunkName": "pages/login/index"
+  },
+  {
+    "name": "profile",
+    "path": "/profile",
+    "component": "/Users/chenyingjian/Desktop/学习文件/realworld/pages/profile/index.vue",
+    "chunkName": "pages/profile/index"
+  },
+  {
+    "name": "settings",
+    "path": "/settings",
+    "component": "/Users/chenyingjian/Desktop/学习文件/realworld/pages/settings/index.vue",
+    "chunkName": "pages/settings/index"
+  },
+  {
+    "name": "article-components-article-comments",
+    "path": "/article/components/article-comments",
+    "component": "/Users/chenyingjian/Desktop/学习文件/realworld/pages/article/components/article-comments.vue",
+    "chunkName": "pages/article/components/article-comments"
+  },
+  {
+    "name": "article-components-article-meta",
+    "path": "/article/components/article-meta",
+    "component": "/Users/chenyingjian/Desktop/学习文件/realworld/pages/article/components/article-meta.vue",
+    "chunkName": "pages/article/components/article-meta"
+  },
+  {
+    "name": "article-slug",
+    "path": "/article/:slug?",
+    "component": "/Users/chenyingjian/Desktop/学习文件/realworld/pages/article/_slug.vue",
+    "chunkName": "pages/article/_slug"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/chenyingjian/Desktop/学习文件/realworld/pages/index.vue",
+    "chunkName": "pages/index"
+  },
+  {
+    "path": "/register",
+    "name": "register",
+    "component": "/Users/chenyingjian/Desktop/学习文件/realworld/pages/login"
+  }
+]
