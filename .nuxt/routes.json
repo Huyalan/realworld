@@ -3,53 +3,62 @@
     "name": "editor",
     "path": "/editor",
     "component": "/Users/chenyingjian/Desktop/学习文件/realworld/pages/editor/index.vue",
-    "chunkName": "pages/editor/index"
+    "chunkName": "pages/editor/index",
+    "_name": "_51a01b15"
   },
   {
     "name": "login",
     "path": "/login",
     "component": "/Users/chenyingjian/Desktop/学习文件/realworld/pages/login/index.vue",
-    "chunkName": "pages/login/index"
+    "chunkName": "pages/login/index",
+    "_name": "_3436ba52"
   },
   {
     "name": "profile",
     "path": "/profile",
     "component": "/Users/chenyingjian/Desktop/学习文件/realworld/pages/profile/index.vue",
-    "chunkName": "pages/profile/index"
+    "chunkName": "pages/profile/index",
+    "_name": "_d9be5752"
   },
   {
     "name": "settings",
     "path": "/settings",
     "component": "/Users/chenyingjian/Desktop/学习文件/realworld/pages/settings/index.vue",
-    "chunkName": "pages/settings/index"
+    "chunkName": "pages/settings/index",
+    "_name": "_5082cb0b"
   },
   {
     "name": "article-components-article-comments",
     "path": "/article/components/article-comments",
     "component": "/Users/chenyingjian/Desktop/学习文件/realworld/pages/article/components/article-comments.vue",
-    "chunkName": "pages/article/components/article-comments"
+    "chunkName": "pages/article/components/article-comments",
+    "_name": "_61f528d6"
   },
   {
     "name": "article-components-article-meta",
     "path": "/article/components/article-meta",
     "component": "/Users/chenyingjian/Desktop/学习文件/realworld/pages/article/components/article-meta.vue",
-    "chunkName": "pages/article/components/article-meta"
+    "chunkName": "pages/article/components/article-meta",
+    "_name": "_fac6b532"
   },
   {
     "name": "article-slug",
     "path": "/article/:slug?",
     "component": "/Users/chenyingjian/Desktop/学习文件/realworld/pages/article/_slug.vue",
-    "chunkName": "pages/article/_slug"
+    "chunkName": "pages/article/_slug",
+    "_name": "_b1730bc8"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/chenyingjian/Desktop/学习文件/realworld/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_1281483d"
   },
   {
     "path": "/register",
     "name": "register",
-    "component": "/Users/chenyingjian/Desktop/学习文件/realworld/pages/login"
+    "component": "/Users/chenyingjian/Desktop/学习文件/realworld/pages/login",
+    "_name": "_50a3f6bc"
   }
 ]
