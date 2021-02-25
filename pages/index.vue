@@ -71,7 +71,7 @@
             <div class="article-meta">
               <nuxt-link :to="{
                 name: 'profile',
-                params: {
+                query: {
                   username: article.author.username
                 }
               }">
@@ -80,7 +80,7 @@
               <div class="info">
                 <nuxt-link class="author" :to="{
                   name: 'profile',
-                  params: {
+                  query: {
                     username: article.author.username
                   }
                 }">

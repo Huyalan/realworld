@@ -20,36 +20,53 @@
       <span class="date">{{ article.createdAt | date('MMM DD, YYYY') }}</span>
     </div>
     <button
-      class="btn btn-sm btn-outline-secondary"
-      :class="{
-        active: article.author.following
-      }"
-    >
-      <i class="ion-plus-round"></i>
-      &nbsp;
-      Follow Eric Simons <span class="counter">(10)</span>
-    </button>
-    &nbsp;&nbsp;
-    <button
       class="btn btn-sm btn-outline-primary"
       :class="{
         active: article.favorited
       }"
+      @click="onFavorite"
+      :disabled="favoriteDisabled"
     >
       <i class="ion-heart"></i>
       &nbsp;
-      Favorite Post <span class="counter">(29)</span>
+      Favorite Post <span class="counter">({{article.favoritesCount||0}})</span>
     </button>
   </div>
 </template>
 
 <script>
+
+import {
+  addFavorite,
+  deleteFavorite
+} from '@/api/article'
+
 export default {
   name: 'ArticleMeta',
   props: {
     article: {
       type: Object,
       required: true
+    }
+  },
+  data(){
+    return{
+      favoriteDisabled:false
+    }
+  },
+  methods:{
+    async onFavorite () {
+      this.favoriteDisabled = true
+      if (this.article.favorited) {
+        await deleteFavorite(this.article.slug)
+        this.article.favorited = false
+        this.article.favoritesCount -= 1
+      } else {
+        await addFavorite(this.article.slug)
+        this.article.favorited = true
+        this.article.favoritesCount += 1
+      }
+      this.favoriteDisabled = false
     }
   }
 }
